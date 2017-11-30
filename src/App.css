@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Condensed|Roboto');
+
+body {
+  background: #ffffff url('./pattern.png');
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+blockquote {
+  border-left: 4px solid #ccc;
+  font-style: italic;
+  padding: 1em;
+  background: rgba(200, 200, 200, 0.1);
+}
+
+blockquote > div {
+  font-style: normal;
+  text-align: right;
+  margin-top: 1em;
+  font-size: 0.9em;
+}
+
+blockquote > div > a {
+  color: white;
+}
+
+.half {
+  display: inline-block;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+ul > li {
+  padding: 1em;
+  font-size: 1.2em;
+}
+
+h1,
+h2 {
+  font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+.dark {
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 3em;
+  padding: 3vh 3vw;
+}
+
+.light {
+  text-align: center;
+  padding: 3em;
+  padding: 15vh 3vw;
+}
+
+.Discord {
+  background-color: #888;
+  font-family: 'Encode Sans Condensed', sans-serif;
+  text-transform: uppercase;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  width: 200px;
+  padding: 1em;
+  box-sizing: border-box;
+  transition: 300ms all ease-in-out;
+  margin-top: 1em
+}
+
+.Discord:hover {
+  background-color: #710005;
+}
+
+
+.Discord img {
+  display: inline-block;
+  margin-top: 1em;
+  width: 60%;
+}
+
+@media (max-width: 800px) {
+  .half {
+    width: 100%;
+  }
+}
